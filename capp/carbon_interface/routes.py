@@ -4,7 +4,7 @@ from capp.models import Transport
 from capp import carbon_calc, db
 from datetime import timedelta, datetime
 from flask_login import login_required, current_user
-from capp.carbon_calc.forms import BusForm, CarForm, PlaneForm, FerryForm, MotorbikeForm, BicycleForm, WalkForm
+from capp.carbon_calc.forms import BusForm, CarForm, PlaneForm, FerryForm, MotorbikeForm, BicycleForm, WalkForm, SpecificCarForm
 import json
 
 api = CarbonAPI()
