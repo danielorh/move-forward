@@ -2,7 +2,7 @@ import requests
 import json
 
 url = 'https://www.carboninterface.com/api'
-headers = {'Authorization': 'Bearer Q6eGoxxENeS3vpIoXkKOw'}
+headers = {'Authorization': 'Bearer API_KEY'}
 
 
 class CarbonAPI:
